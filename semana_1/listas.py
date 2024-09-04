@@ -7,6 +7,7 @@ numeros_decimais = 3.14 #Isso é um FLOAT
 
 lista_de_compras = ['pão', 'leite', 'chocolate', 'água', 'maça', 'uva']
 
+
 #Como acessar elemento dentro de uma lista. Coloque o nome da variável que é uma lista seguido de colchetes com número do índice que desejamos acessar. Lembrando que o primeiro elemento está no índice 0 
 
 lista_de_casamento = []
