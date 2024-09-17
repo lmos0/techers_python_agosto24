@@ -1,7 +1,7 @@
 def calculadora(num1:int, num2:int, operacao:str):
    
     """
-    
+
     O primeiro argumento deve ser um numeral, bem como o segundo elemento. O terceiro elemento deve ser um sinal de operação matemática
     adição +
     subrtração -
