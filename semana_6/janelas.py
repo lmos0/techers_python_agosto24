@@ -38,7 +38,6 @@ label2.grid(row=0, column=1)
 radio.grid(row=1, column=0)
 radio2.grid(row=2, column=0 )
 radio3.grid(row=3, column=0)
-combobox.grid(row=4, column=0)
 
 
 

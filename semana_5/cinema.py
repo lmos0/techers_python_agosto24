@@ -1,6 +1,6 @@
 import requests
 
-api_key = '35d90404' 
+api_key = '35d90404' #NÃO SE FAZ!!
 movie = input('Digite o nome do filme a ser consultado: ')
 
 url = f'http://www.omdbapi.com/?t={movie}&apikey={api_key}&'
