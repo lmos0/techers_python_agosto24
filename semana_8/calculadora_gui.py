@@ -16,10 +16,16 @@ def clear_field():
 
 def eval_calculation():
     global calculation
-
-    calculation = str(eval(calculation))
-    text_resut.delete(1.0,"end")
-    text_resut.insert(1.0,calculation)
+    try:
+        calculation = str(eval(calculation))
+        text_resut.delete(1.0,"end")
+        text_resut.insert(1.0,calculation)
+    except ZeroDivisionError:
+        clear_field()
+        text_resut.insert(1.0, 'Não é possível dividir por zero')
+    except SyntaxError:
+        clear_field()
+        text_resut.insert( 1.0, 'Insira apenas números')
 
 root = tk.Tk()
 root.geometry('320x310')
