@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "teste_conexao",
+            "database": "${workspaceFolder:semana_12}/database.db"
+        }
+    ]
+}
